@@ -34,4 +34,4 @@ profileRouter.patch("/profile/edit", userAuth, async (req, res) => {
   }
 });
 
-module.exports = authRouter;
+module.exports = profileRouter;
